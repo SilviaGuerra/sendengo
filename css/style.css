@@ -1,0 +1,106 @@
+*{
+  font-family: 'Raleway', sans-serif;
+
+}
+
+nav{
+  background: #000;
+  position: fixed;
+  margin-top: 33px;
+  border-radius: 0 11px 80px 0;
+  width: 99%;
+  height: 80px;
+}
+
+nav ul li{
+  margin-right: 48px;
+}
+
+.messenger{
+  height: 20px;
+}
+
+.logo{
+  height: 60px;
+  margin: 11px 53px;
+}
+
+.parallax{
+  background-image: url("../assets/img/sendengo-inicio-paralax-low.jpg");
+  background-position: center;
+  z-index: -10;
+}
+
+.personas-inicio{
+  display: inline-block;
+}
+
+.personas-inicio{
+  margin: 193px 34px;
+  position: relative;
+}
+
+.personas{
+  height: 398px;
+  position: absolute;
+  z-index: -1;
+  /*margin-left: -324px;*/
+}
+
+.persona2{
+  position: absolute;
+  margin-left: 247px;
+  z-index: -2;
+}
+
+.texto-encabezado{
+  color: #fff;
+  font-size: 34px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -181px;
+  margin-right: 60px;
+  z-index: -1;
+}
+
+.letras-verdes{
+  color: #37ab30;
+  font-weight: 30px;
+}
+
+.barra-negra{
+  background: #000;
+  margin-top: -15px;
+  height: 100px;
+}
+
+.boton{
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.barra-negra img{
+  height: 75px;
+}
+
+.telefonos{
+  /*border: 1px solid white;*/
+  display: inline-block;
+  color: #fff;
+  line-height: 10px;
+}
+
+.queEs{
+  color: #fff;
+  margin: 92px 49px;
+  width: 600px;
+  font-size: 16px;
+}
+
+.queEs p{
+  text-align: justify;
+}
+
+.images-centrales{
+  height: 125px;
+}
